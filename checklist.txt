@@ -1,0 +1,92 @@
+# University Marketplace Features Checklist
+
+## Currently Implemented ✅
+
+### Authentication
+- [x] User signup
+- [x] User login
+- [x] User logout
+- [x] JWT token authentication
+
+### Listings Basic Features
+- [x] Create new listings
+- [x] View all listings
+- [x] View my listings
+- [x] Basic listing details (title, description, price, category, condition)
+
+## Not Yet Implemented ❌
+
+### Search and Filtering
+- [ ] Search functionality
+- [ ] Filter by price range
+- [ ] Filter by category
+- [ ] Filter by condition
+- [ ] Filter by location
+- [ ] Sort listings (price, date, etc.)
+
+### Enhanced Listing Management
+- [ ] Edit existing listings
+- [ ] Delete listings
+- [ ] Mark items as "Sold"
+- [ ] Mark items as "Reserved"
+- [ ] Multiple images upload
+- [ ] Price history tracking
+
+### User Profile Features
+- [ ] Profile page
+- [ ] User ratings/reviews
+- [ ] View seller's other listings
+- [ ] Edit profile information
+- [ ] Profile picture
+- [ ] University email verification
+
+### Communication System
+- [ ] In-app messaging
+- [ ] Email notifications
+- [ ] Chat history
+- [ ] Message notifications
+
+### Favorites/Watchlist
+- [ ] Save favorite listings
+- [ ] Price change notifications
+- [ ] Create item alerts
+
+### Categories and Tags
+- [ ] University-specific categories
+  - [ ] Textbooks
+  - [ ] Course materials
+  - [ ] Dorm furniture
+  - [ ] Lab equipment
+- [ ] Custom tagging system
+
+### Location Features
+- [ ] Campus map integration
+- [ ] Meeting point suggestions
+- [ ] Safe trade zones
+- [ ] Building/location-based browsing
+
+### Security Features
+- [ ] Report inappropriate listings
+- [ ] University email verification
+- [ ] Block users
+- [ ] Safety guidelines
+- [ ] Terms of service
+
+### Mobile Responsiveness
+- [ ] Responsive design
+- [ ] Mobile-friendly image upload
+- [ ] Mobile-friendly messaging
+
+### Additional Features
+- [ ] Price negotiation system
+- [ ] Bulk listing creation
+- [ ] Seasonal categories
+- [ ] Social media sharing
+- [ ] Similar items suggestions
+
+## Backend Infrastructure Already in Place ✅
+- [x] MongoDB database connection
+- [x] User authentication system
+- [x] Basic listing CRUD operations
+- [x] JWT token management
+- [x] Basic API endpoints structure
