@@ -122,3 +122,101 @@ nav {
   padding: 10px;
   border-bottom: 1px solid #ddd;
 }
+
+.listings-container {
+  margin-top: 20px;
+}
+
+.listing-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.listing-item h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.listing-details {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.create-button {
+  background-color: #28a745;
+  padding: 8px 16px;
+}
+
+.create-button:hover {
+  background-color: #218838;
+}
+
+.listing-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.listing-form input,
+.listing-form textarea,
+.listing-form select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.listing-form textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+.listing-form button[type="submit"] {
+  align-self: flex-start;
+  padding: 8px 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.logout-button {
+  background-color: #dc3545;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
